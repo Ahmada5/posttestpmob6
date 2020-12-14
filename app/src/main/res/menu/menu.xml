@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ini_implicit"
+        android:title="Implicit">
+        <menu>
+            <item
+                android:id="@+id/ini_maps"
+                android:title="Maps">
+            </item>
+            <item
+                android:id="@+id/ini_browser"
+                android:title="Browser">
+            </item>
+            <item
+                android:id="@+id/ini_telephone"
+                android:title="Telephone">
+            </item>
+            <item
+                android:id="@+id/ini_messages"
+                android:title="Messages">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/ini_explicit"
+        android:title="Explicit">
+        <menu>
+            <item
+                android:id="@+id/ini_hitung"
+                android:title="Hitung">
+            </item>
+        </menu>
+    </item>
+
+
+
+</menu >

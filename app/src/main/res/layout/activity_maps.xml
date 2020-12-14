@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maps"
+    android:background="@drawable/background1">
+
+    <EditText
+        android:id="@+id/sourcelocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your location"
+        android:textColor="@color/blue1"
+        android:textColorHint="@color/blue1"
+        android:backgroundTint="@color/blue3"
+        android:padding="12dp"
+        />
+    <EditText
+        android:id="@+id/sourcedestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Destination location"
+        android:textColor="@color/blue1"
+        android:textColorHint="@color/blue1"
+        android:backgroundTint="@color/blue3"
+        android:padding="12dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/track"
+        android:text="Show me"
+        android:textColor="@color/blue1"
+        android:fontFamily="@font/trade_winds"
+        android:background="@drawable/background2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"/>
+
+
+
+
+</RelativeLayout>

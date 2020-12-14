@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background1"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/me"
+      />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="400dp"
+        android:text="ACHMAD SOLEH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/blue1" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="430dp"
+        android:text="1800018279"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/blue1" />
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="30dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/logo_ig" />
+
+    <ImageButton
+        android:id="@+id/twitter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="280dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/logo_twit" />
+
+
+
+
+</RelativeLayout>

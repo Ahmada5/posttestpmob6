@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hitung"
+    android:background="@drawable/background1">
+
+    <EditText
+        android:id="@+id/jari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Masukkan jari-jari"
+        android:textColor="@color/blue1"
+        android:textColorHint="@color/blue1"
+        android:backgroundTint="@color/blue3"
+        android:padding="12dp"/>
+    <Button
+        android:id="@+id/hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/blue1"
+        android:background="@drawable/background2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/luas"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:text="LUAS = (Phi.r.r)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/blue1" />
+    <TextView
+        android:id="@+id/volume"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Volume = (Phi.r.r.r.4/3)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/blue1" />
+
+
+
+</RelativeLayout>
